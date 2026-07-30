@@ -1,17 +1,44 @@
+@font-face {
+  font-family: "sunrise";
+  src: url("../fonts/aveny-t-web.ttf");
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  background: url("../assets/background-hero.jpg");
+  background-size: cover;
 }
 
 #root {
   margin: 0 auto;
   min-height: 100svh;
 }
-
+.hidden {
+  display: none;
+}
 h1,h2 {
-
+  font-family: "sunrise";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: 300;
+}
+p {
+    color: white;
 }
 
+
+
+/*
+.color1 { #bb9865 };
+.color2 { #d6c1a3 };
+.color3 { #542405 };
+.color4 { #748c9c };
+.color5 { #8c9bb4 };
+
+*/
