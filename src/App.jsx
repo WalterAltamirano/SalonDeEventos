@@ -1,13 +1,15 @@
 import { useState } from 'react'
-
+import {Routes, Route} from 'react-router'
+import Home  from './components/Home.jsx'
+import NotFoundContent from './components/reusable/NotFoundContent.jsx'
 function App() {
-  const [count, setCount] = useState(0)
 
+  //Manejo de rutas...
   return (
-    <main>
-      <section>
-      </section>
-    </main>
+    <Routes>
+      <Route path="home" element={<Home />} />
+      <Route path="*" element={<NotFoundContent />} />
+    </Routes>
   )
 }
 
