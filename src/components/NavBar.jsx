@@ -2,7 +2,6 @@ import '../styles/index.css'
 import '../styles/navbar.css'
 import { Link } from 'react-router'
 import { useState } from 'react'
-import icon from '../assets/icon-nav-phone.png'
 const NavBar = () => {
 
     const [isActiveNav, setIsActiveNav] = useState(false);
@@ -18,7 +17,7 @@ const NavBar = () => {
                             <Link className='nav-link' to="/home">Inicio</Link>
                         </li>
                         <li>
-                            <Link className='nav-link' to="/nuestrasPropuestas"> Nuestras Propuestas </Link>
+                            <Link className='nav-link' to="/nuestrasPropuestas">Nuestras Propuestas </Link>
                         </li>
                         <li>
                             <Link className='nav-link' to="/catalogo">Catalogo de eventos</Link>
