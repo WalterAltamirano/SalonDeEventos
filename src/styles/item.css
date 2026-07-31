@@ -1,0 +1,26 @@
+.container-item {
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    
+}
+
+.container-item-image {
+
+}
+.item-image {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.container-item-content {
+}
+
+.container-item-content h3 {
+    font-size: 0.8rem;
+}
+
+.container-item-content p {
+    font-size: 0.5rem;
+}
+
