@@ -1,12 +1,13 @@
 import '../styles/index.css'
 import '../styles/navbar.css'
 import { Link } from 'react-router'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 const NavBar = () => {
 
     const [isActiveNav, setIsActiveNav] = useState(false);
-
-
+    
+    //Manejar la forma de que redireccione al elemento al clickear el nav.
+    const inicio = useRef(null); 
     return(
         <header>
             <span>SL</span> {/* Cambiar por un icono */}
