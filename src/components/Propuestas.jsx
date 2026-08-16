@@ -5,15 +5,14 @@ import Item from '../components/reusable/Item'
 const Propuestas = () => {
     return(
         <section className="container-propuestas">
-            <h2>Propuestas</h2>
-            <article className='container-items'>
-                <Item name={"Standard"} />
-                <Item name={"Premium"} />
-                <Item name={"Deluxe"} />
-                <Item name={"Ultimate"} />
+            <article className='container-content-propuestas'>
+                <h2>Propuestas</h2>
+                <aside className='container-items'>
+                    <Item name={"Standard"} />
+                    <Item name={"Premium"} />
+                </aside>
             </article>
-            <Link to="/nuestrasPropuestas">Ver mas</Link>
-        
+            <Link className="link-ver-mas" to="/nuestrasPropuestas"><span>Ver mas</span></Link>
         </section>
     );
 }

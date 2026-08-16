@@ -49,12 +49,15 @@ main {
 
 .container-propuestas {
     padding: 2.5em 1em 1.5em 1em;
-    background: linear-gradient(90deg,rgba(35, 22, 19, 0.9) 25%, rgba(83, 50, 40, 1) 100%, rgba(126, 60, 36, 1) 50%);
+    background: url('../assets/background-propuestas.jpg');
+    background-size: cover;
+    image-rendering: smooth;
+    background-position: center;
     grid-area: sec1;
 }
 
 .container-content-propuestas {
-    
+
 }
 
 .container-propuestas h2,
@@ -79,6 +82,14 @@ main {
 */
 
 .container-catalogo {
+    background: url('../assets/background-catalogo.jpg');
+    background-size: cover;
+    image-rendering: smooth;
+    background-position: center;
     padding: 2.5em 1em 1.5em 1em;
     grid-area: sec2;
+}
+
+.container-content-catalogo {
+    
 }

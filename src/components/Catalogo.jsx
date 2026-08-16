@@ -6,13 +6,14 @@ const Catalogo = () => {
     
     return(
         <section className="container-catalogo">
-            <h2>Catalogo</h2>
-            <article className='container-items'>
-                <Item name={"Casamiento"} />
-                <Item name={"Quinces"}/>
-                <Item name={"Empresarial"}/>
+            <article className="container-content-catalogo">
+                <h2>Catalogo</h2>
+                <aside className='container-items'>
+                    <Item name={"Casamiento"} />
+                    <Item name={"Quinces"}/>
+                </aside>
+                <Link className="link-ver-mas" to="/catalogo"><span>Ver mas</span></Link>
             </article>
-            <Link to="/catalogo">Ver mas</Link>
         </section>
     );
 };
