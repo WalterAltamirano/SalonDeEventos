@@ -8,8 +8,10 @@ const Home = () => {
     return (
         <main>
             <section className="hero-section">
-                <h1 className="title-hero">Salon de Eventos</h1>
-                <p className='subtitle-hero'>Tu unico lugar para cumplir tan ansiado festejo</p>
+                <article className="container-content-hero">
+                    <h1 className="title-hero">Salon de Eventos</h1>
+                    <p className='subtitle-hero'>Tu unico lugar para cumplir tan ansiado festejo</p>
+                </article>
             </section>
             <Propuestas />
             <Catalogo />            

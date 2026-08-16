@@ -12,9 +12,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  object-fit: cover;
-  background: url("../assets/background-hero.jpg");
-  background-size: cover;
 }
 
 #root {
@@ -37,7 +34,21 @@ p {
     color: white;
 }
 
-
+.link-ver-mas {
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 8px;
+  border: 1px solid whitesmoke;
+  font-family: "sunrise";
+  padding: 0.5em 1em;
+  width: 100%;
+  cursor: pointer;
+}
+.link-ver-mas span:hover {
+  font-size: 1rem;
+  text-decoration: underline;
+}
 
 /*
 .color1 { #bb9865 };
